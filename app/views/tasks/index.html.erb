@@ -38,13 +38,12 @@
                         <%= link_to "編集", edit_task_path(task) %>
                     </td>
                     <td>
-                    <div class="clear">
-                        <%= button_to "このタスクを削除する",task_path(task) , method: :delete %>
+                    <div>
+                        <%= button_to "このタスクを削除する",task_path(task) , method: :delete, class: "clear" %>
                     </div>
                     </td>
                 </tr>
-                <div class="clear">
-                        <%= button_to  "このタスクを削除する",task_path(task) , method: :delete %>
+                
                 </div>
 <% end %>
     </tbody>

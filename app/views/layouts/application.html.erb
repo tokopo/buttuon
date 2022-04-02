@@ -19,7 +19,8 @@
 
     <footer>
     <h1>
-    
+    現在日時:<%= Date.current.strftime('%Y/%m/%d') %>
+    スケジュールの合計: <%= @tasks.length if @tasks.present? %>
     </h1>
   </footer>
   </body>

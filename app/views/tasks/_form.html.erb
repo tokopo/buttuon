@@ -31,7 +31,7 @@
     <p>終日の場合はチェックを入れます</p>
     <%= form.check_box :is_all_day %>
   </div>
-
+  
   <div>
     <%= form.label :"スケジュールメモ", style: "display: block" %>
     <%= form.text_area :introduction %>
@@ -42,5 +42,8 @@
   </div>
 <% end %>
 
+<style>
+input[type="checkbox"] { width: auto; }
 
 
+</style>

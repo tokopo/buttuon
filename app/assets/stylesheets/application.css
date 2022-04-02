@@ -99,7 +99,7 @@ table th {
     font-size: 16px
 }
 
-.clear{
+button.clear{
     background-color: transparent;
         border: none;
         cursor: pointer;
@@ -108,6 +108,10 @@ table th {
         appearance: none;
 
         color: -webkit-link;
-    text-decoration: underline;
+    text-decoration: none;
     cursor: auto;
+}
+
+.check{
+    text-align: left;
 }
